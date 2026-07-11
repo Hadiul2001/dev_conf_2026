@@ -23,6 +23,30 @@ a{
 ul{
     list-style:none;
 }
+.container{
+  width:1200px;
+  margin:auto;
+}
+
+
+
+
+.section-title{
+  font-size:48px;
+  font-weight:700;
+  text-align:center;
+  margin-bottom:15px;
+}
+
+
+
+
+.subtitle{
+  text-align:center;
+  color:#6b7280;
+  margin-bottom:60px;
+  font-size:18px;
+}
 
 
 /*butten*/
@@ -68,3 +92,57 @@ header{
     font-size:16px;
 }
 
+/*HERO*/
+
+
+.hero{
+   background:url("./assets/banner.jpg");
+   background-size:cover;
+   background-position:center;
+   height:760px;
+}
+.overlay{
+   width:100%;
+   height:100%;
+   background:rgba(0,0,0,.65);
+   display:flex;
+   justify-content:center;
+   align-items:center;
+}
+
+
+.hero-content{
+   width:850px;
+   text-align:center;
+   color:white;
+}
+
+
+.hero-content h1{
+   font-size:72px;
+   margin-bottom:30px;
+   font-weight:800;
+}
+
+
+.hero-content em{
+   font-style:italic;
+}
+
+
+.hero-content p{
+   font-size:22px;
+   line-height:36px;
+   margin-bottom:50px;
+}
+
+
+.hero-btn{
+   display:inline-block;
+   background:#2563eb;
+   color:white;
+   padding:18px 42px;
+   border-radius:8px;
+   font-size:20px;
+   font-weight:700;
+}
