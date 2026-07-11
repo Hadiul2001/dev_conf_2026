@@ -60,6 +60,16 @@ ul{
     font-weight:600;
 }
 
+.outline-btn{
+   display:inline-block;
+   border:2px solid #2563eb;
+   color:#2563eb;
+   padding:12px 28px;
+   border-radius:8px;
+   font-weight:600;
+}
+
+
 
 
 /*NAVBAR*/
@@ -199,4 +209,87 @@ header{
 .speaker-info p{
    color:#6b7280;
    font-size:16px;
+}
+
+
+/*PRICING*/
+
+
+.pricing{
+   padding-bottom:120px;
+}
+
+
+.pricing-cards{
+   display:flex;
+   justify-content:space-between;
+   gap:30px;
+}
+
+
+.price-card{
+   flex:1;
+   border:1px solid #e5e7eb;
+   border-radius:10px;
+   padding:35px;
+   background:#ffffff;
+}
+
+
+.price-card h4{
+   color:#6b7280;
+   font-size:14px;
+   letter-spacing:1px;
+   margin-bottom:15px;
+}
+
+
+.price-card h2{
+   font-size:48px;
+   margin-bottom:10px;
+}
+
+
+.price-card span{
+   color:#6b7280;
+   display:block;
+   margin-bottom:30px;
+}
+
+
+.price-card ul{
+   margin-bottom:35px;
+}
+
+
+.price-card ul li{
+   margin-bottom:16px;
+   color:#374151;
+   list-style:disc;
+   margin-left:20px;
+}
+
+
+.featured{
+   background:#0f172a;
+   color:white;
+}
+
+
+.featured span,
+.featured li,
+.featured h4{
+   color:#d1d5db;
+}
+
+
+.featured .btn{
+   width:100%;
+   text-align:center;
+}
+
+
+.price-card .outline-btn{
+   width:100%;
+   text-align:center;
 }
