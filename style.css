@@ -146,3 +146,57 @@ header{
    font-size:20px;
    font-weight:700;
 }
+
+
+/*SPEAKERS*/
+
+
+.speakers{
+   padding:120px 0;
+}
+
+
+.speaker-grid{
+   display:grid;
+   grid-template-columns:repeat(2,1fr);
+   gap:30px;
+}
+
+
+.speaker-card{
+   border:1px solid #e5e7eb;
+   border-radius:10px;
+   overflow:hidden;
+   background:white;
+}
+
+
+.speaker-card img{
+   height:320px;
+   object-fit:cover;
+}
+
+
+.speaker-info{
+   padding:25px;
+}
+
+
+.category{
+   color:#2563eb;
+   font-size:12px;
+   font-weight:700;
+   text-transform:uppercase;
+}
+
+
+.speaker-info h3{
+   margin:12px 0;
+   font-size:28px;
+}
+
+
+.speaker-info p{
+   color:#6b7280;
+   font-size:16px;
+}
