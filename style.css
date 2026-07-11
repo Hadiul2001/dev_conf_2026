@@ -293,3 +293,43 @@ header{
    width:100%;
    text-align:center;
 }
+/*conference schedule section (Use AI)*/
+
+
+.schedule{
+   padding-bottom:120px;
+}
+
+
+.schedule-wrapper{
+   display:flex;
+   gap:30px;
+}
+
+
+.schedule-card{
+   flex:1;
+   padding:35px;
+   border:1px solid #e5e7eb;
+   border-radius:10px;
+   background:#f8fafc;
+}
+
+
+.schedule-card h3{
+   color:#2563eb;
+   font-size:26px;
+   margin-bottom:15px;
+}
+
+
+.schedule-card h4{
+   font-size:22px;
+   margin-bottom:20px;
+}
+
+
+.schedule-card p{
+   color:#4b5563;
+   line-height:30px;
+}
