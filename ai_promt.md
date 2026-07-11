@@ -1,0 +1,1 @@
+Me as a developer crating a website for developer conference 2026.In my webside i have nav,hero,speaker,pricing and footer section.In between prictin and footer section i want to add nec dsection for conference schedule.Give me 3 day plan for my conference.For this use basic html and css make 3 card for 3 day plan.Give me the html and css code.
