@@ -333,3 +333,82 @@ header{
    color:#4b5563;
    line-height:30px;
 }
+
+/*style*/
+
+
+footer{
+   background:#0f172a;
+   color:white;
+   padding:60px 0 25px;
+}
+
+
+.footer-top{
+   display:flex;
+   justify-content:space-between;
+   align-items:center;
+   margin-bottom:30px;
+}
+
+
+.footer-logo{
+   display:flex;
+   align-items:center;
+   gap:12px;
+}
+
+
+.footer-logo i{
+   font-size:28px;
+   color:#2563eb;
+}
+
+
+.footer-logo h2{
+   font-size:22px;
+}
+
+
+.footer-logo p{
+   font-size:14px;
+}
+
+
+.social{
+   display:flex;
+   gap:20px;
+}
+
+
+.social a{
+   width:45px;
+   height:45px;
+   background:#1e293b;
+   border-radius:50%;
+   color:white;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   font-size:18px;
+   transition:.3s;
+}
+
+
+.social a:hover{
+   background:#2563eb;
+}
+
+
+footer hr{
+   border:none;
+   border-top:1px solid #334155;
+   margin-bottom:20px;
+}
+
+
+.copyright{
+   text-align:center;
+   color:#cbd5e1;
+   font-size:15px;
+}
